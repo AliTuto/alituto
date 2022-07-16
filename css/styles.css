@@ -1,0 +1,100 @@
+  body {
+    text-align: center;
+    background-color: white;
+  }
+
+  .identity-cards {
+    margin-top: 50px;
+  }
+  
+  .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+  }
+
+  .card-header {
+    padding: .5rem 1rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, .03);
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+  .card:hover {
+    box-shadow : 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .container-fluid {
+    padding: 3% 15% 7%;
+  }
+  
+  h1,h3 {
+    font-family: "Ubuntu";
+  }
+  
+  p {
+    color: #8f8f8f;
+  }
+
+  .signup-cards {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  
+  /* Headings */
+  .big-heading {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 3.5rem;
+    color: #3AB0FF;
+  }
+
+  #student-card {
+    margin-left: 150px;
+  }
+
+  #tutor-card {
+    margin-left: 100px;
+  }
+
+  .card-title {
+    margin-bottom: .5rem;
+    color: black;
+  }
+
+  .card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+  }
+  
+  /* Sections */
+  .colored-section {
+    background-color: white;
+    color: white;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    padding-bottom: 2rem;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #3AB0FF;
+  }
+
+  #icon {
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+
+  
